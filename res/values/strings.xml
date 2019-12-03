@@ -687,4 +687,15 @@
     <!-- Rotation button -->
     <string name="show_rotation_button_title">Rotation button</string>
     <string name="show_rotation_button_summary">Display rotation button on navigation bar when available</string>
+
+    <!-- Firewall -->
+    <string name="firewall_title">Firewall</string>
+    <string name="firewall_description" >This firewall uses the app permission settings for blocking and unblocking apps.</string>
+    <string name="firewall_enable_title" >Enable firewall</string>
+    <string name="firewall_block_new_apps_title" >Block new apps</string>
+    <string name="firewall_show_system_apps_title" >Show system apps</string>
+    <string name="firewall_block_all_apps_title" >Block all apps</string>
+    <string name="firewall_unblock_all_apps_title" >Unblock all apps</string>
+    <string name="firewall_apps">Apps</string>
+    <string name="firewall_no_apps_to_show">No apps to show</string>
 </resources>
