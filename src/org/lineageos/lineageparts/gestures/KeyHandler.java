@@ -354,6 +354,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private void wakeDevice() {
         mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
         mPowerManager.wakeUp(SystemClock.uptimeMillis(), GESTURE_WAKEUP_REASON);
+        doHapticFeedback();
     }
 
     private void dispatchMediaKeyWithWakeLockToMediaSession(final int keycode) {
