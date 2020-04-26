@@ -103,6 +103,7 @@
         <!-- LiveDisplay settings (Display category) -->
         <activity-alias
             android:name=".livedisplay.LiveDisplaySettings"
+            android:icon="@drawable/rr_live_display_icon"
             android:label="@*lineageos.platform:string/live_display_title"
             android:targetActivity="PartsActivity">
             <intent-filter>
