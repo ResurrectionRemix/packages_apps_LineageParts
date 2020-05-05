@@ -17,4 +17,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="charging_sounds_settings_summary">Customize your plugged in charging sounds</string>
+    <string name="charging_sounds_vibration_summary">Vibrate on charging connection</string>
 </resources>

@@ -31,6 +31,7 @@
         android:key="power_notifications_vibrate"
         android:icon="@drawable/rr_intensity_icon"
         android:title="@string/power_notifications_vibrate_title"
+        android:summary="@string/charging_sounds_vibration_summary"
         android:dependency="charging_sounds_enabled" />
 
     <Preference
