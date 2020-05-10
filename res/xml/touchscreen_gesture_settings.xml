@@ -22,6 +22,7 @@
 
     <lineageos.preference.LineageSystemSettingSwitchPreference
         android:key="touchscreen_gesture_haptic_feedback"
+        android:icon="@drawable/rr_haptic_icon"
         android:title="@string/touchscreen_gestures_haptic_feedback_title"
         android:summary="@string/touchscreen_gestures_haptic_feedback_summary"
         android:defaultValue="true" />

@@ -22,17 +22,20 @@
     <!-- Color profile -->
     <ListPreference
             android:key="live_display_color_profile"
+            android:icon="@drawable/rr_color_icon"
             android:title="@string/live_display_color_profile_title"
             android:persistent="false" />
 
     <ListPreference
             android:key="live_display"
+            android:icon="@drawable/rr_live_display_icon"
             android:title="@string/live_display_mode"
             android:persistent="false" />
 
     <!-- Manual temperature selection -->
     <org.lineageos.lineageparts.livedisplay.DisplayTemperature
             android:key="live_display_color_temperature"
+            android:icon="@drawable/rr_temperature_icon"
             android:title="@string/live_display_color_temperature_title"
             android:dialogTitle="@*lineageos.platform:string/live_display_title"
             android:persistent="false" />
@@ -40,6 +43,7 @@
     <!-- Outdoor mode / SRE -->
     <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="display_auto_outdoor_mode"
+            android:icon="@drawable/rr_autoenable_icon"
             android:title="@string/live_display_outdoor_mode_title"
             android:summary="@string/live_display_outdoor_mode_summary"
             android:defaultValue="@*lineageos.platform:bool/config_defaultAutoOutdoorMode" />
@@ -47,6 +51,7 @@
     <!-- Reading mode -->
     <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="display_reading_mode"
+            android:icon="@drawable/rr_visib_icon"
             android:title="@string/live_display_reading_mode_title"
             android:summary="@string/live_display_reading_mode_summary"
             android:defaultValue="false"
@@ -59,6 +64,7 @@
         <!-- RGB display color adjustments -->
         <org.lineageos.lineageparts.livedisplay.DisplayColor
                 android:key="color_calibration"
+                android:icon="@drawable/rr_calib_icon"
                 android:title="@string/color_calibration_title"
                 android:dialogTitle="@string/color_calibration_title"
                 android:summary="@string/color_calibration_summary"
@@ -67,6 +73,7 @@
         <!-- HSIC display color adjustments -->
         <org.lineageos.lineageparts.livedisplay.PictureAdjustment
                 android:key="picture_adjustment"
+                android:icon="@drawable/rr_ambient_icon"
                 android:title="@string/picture_adjustment_title"
                 android:dialogTitle="@string/picture_adjustment_title"
                 android:summary="@string/picture_adjustment_summary"
@@ -75,6 +82,7 @@
         <!-- Adaptive backlight -->
         <lineageos.preference.LineageSystemSettingSwitchPreference
                 android:key="display_low_power"
+                android:icon="@drawable/rr_power_icon"
                 android:title="@string/live_display_low_power_title"
                 android:summary="@string/live_display_low_power_summary"
                 android:defaultValue="@*lineageos.platform:bool/config_defaultCABC" />
@@ -82,6 +90,7 @@
         <!-- Color enhancement -->
         <lineageos.preference.LineageSystemSettingSwitchPreference
                 android:key="display_color_enhance"
+                android:icon="@drawable/rr_enhance_icon"
                 android:title="@string/live_display_enhance_color_title"
                 android:summary="@string/live_display_enhance_color_summary"
                 android:defaultValue="@*lineageos.platform:bool/config_defaultColorEnhancement" />

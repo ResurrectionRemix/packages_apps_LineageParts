@@ -22,10 +22,12 @@
 
     <SwitchPreference
         android:key="accelerometer"
+        android:icon="@drawable/rr_rotate_icon"
         android:title="@string/accelerometer_title" />
 
     <lineageos.preference.LineageSystemSettingSwitchPreference
         android:key="lockscreen_rotation"
+        android:icon="@drawable/rr_lock_icon"
         android:title="@string/display_lockscreen_rotation_title"
         android:dependency="accelerometer"
         android:defaultValue="false"
@@ -38,18 +40,22 @@
 
         <CheckBoxPreference
             android:key="display_rotation_0"
+            android:icon="@drawable/rr_left_icon"
             android:title="@string/display_rotation_0_title" />
 
         <CheckBoxPreference
             android:key="display_rotation_90"
+            android:icon="@drawable/rr_right_icon"
             android:title="@string/display_rotation_90_title" />
 
         <CheckBoxPreference
             android:key="display_rotation_180"
+            android:icon="@drawable/rr_middle_icon"
             android:title="@string/display_rotation_180_title" />
 
         <CheckBoxPreference
             android:key="display_rotation_270"
+            android:icon="@drawable/rr_360_icon"
             android:title="@string/display_rotation_270_title" />
 
     </PreferenceCategory>
