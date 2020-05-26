@@ -20,6 +20,10 @@
     android:key="charging_sounds_settings"
     android:title="@string/charging_sounds_settings_title">
 
+	<com.android.settings.rr.preview.FragmentPreview
+        android:layout="@layout/rr_charging_layout"
+        android:selectable="false"/>
+
     <lineageos.preference.GlobalSettingSwitchPreference
         android:key="charging_sounds_enabled"
         android:icon="@drawable/rr_media_icon"
