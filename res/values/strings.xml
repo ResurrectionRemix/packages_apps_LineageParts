@@ -682,4 +682,8 @@
     <string name="sms_security_check_limit_summary">Apps can send %s messages in 1 minute before requiring confirmation</string>
     <string name="sms_security_check_limit_summary_none">Apps are not allowed to send any messages without confirmation</string>
     <string name="sms_security_check_limit_always_confirm">Always confirm</string>
+
+    <!-- Rotation button -->
+    <string name="show_rotation_button_title">Rotation button</string>
+    <string name="show_rotation_button_summary">Display rotation button on navigation bar when available</string>
 </resources>
