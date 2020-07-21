@@ -319,8 +319,8 @@
             android:summary="@string/volume_answer_call_summary"
             android:defaultValue="false" />
 
-        <lineageos.preference.LineageSystemSettingSwitchPreference
-            android:key="volbtn_music_controls"
+        <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
             android:icon="@drawable/rr_media_icon"
             android:title="@string/volbtn_music_controls_title"
             android:summary="@string/volbtn_music_controls_summary"
