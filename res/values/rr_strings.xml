@@ -30,6 +30,7 @@
     <string name="action_ringer_modes">Ringer modes</string>
     <string name="kill_app">Kill foreground app</string>
     <string name="skip_song">Skip song</string>
+    <string name="hardware_keys_action_screenshot_partial">Partial Screenshot</string>
     <string name="prev_song">Previous song</string>
 
     <!-- Kill app long-press back -->
