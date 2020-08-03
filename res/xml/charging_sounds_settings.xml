@@ -21,9 +21,14 @@
     android:title="@string/charging_sounds_settings_title">
 
 	<com.android.settings.rr.preview.FragmentPreview
+        android:key="preview"
         android:layout="@layout/rr_charging_layout"
         android:selectable="false"/>
 
+   <Preference
+        android:key="animation"
+        android:layout="@layout/rr_sound_animation" />
+ <PreferenceCategory>
     <lineageos.preference.GlobalSettingSwitchPreference
         android:key="charging_sounds_enabled"
         android:icon="@drawable/rr_media_icon"
@@ -44,5 +49,5 @@
         android:title="@string/charging_sounds_ringtone_title"
         android:dependency="charging_sounds_enabled"
         android:persistent="false" />
-
+ </PreferenceCategory>
 </PreferenceScreen>
