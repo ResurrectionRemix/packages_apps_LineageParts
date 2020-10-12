@@ -143,6 +143,8 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment
                     return R.drawable.ic_gesture_action_volume_up;
                 case TouchscreenGestureConstants.ACTION_AMBIENT_DISPLAY:
                     return R.drawable.ic_gesture_action_ambient_display;
+                case TouchscreenGestureConstants.ACTION_WAKE_DEVICE:
+                    return R.drawable.ic_gesture_action_wake;
                 default:
                     // No gesture action
                     return R.drawable.ic_gesture_action_none;
