@@ -26,12 +26,14 @@
 
         <SwitchPreference
             android:key="power_save"
+            android:icon="@drawable/rr_battery_saver_icon"
             android:title="@string/power_save_title"
             android:summary="@string/power_save_summary"
             android:persistent="false" />
 
         <ListPreference
             android:key="auto_power_save"
+            android:icon="@drawable/rr_autoenable_icon"
             android:title="@string/auto_power_save_title"
             android:persistent="false" />
 
@@ -44,6 +46,7 @@
         <org.lineageos.lineageparts.widget.SeekBarPreference
             android:key="perf_seekbar"
             android:title="@string/perf_profile_title"
+            android:icon="@drawable/rr_profiles_icon"
             android:max="4"
             android:defaultValue="1"
             android:persistent="false"
