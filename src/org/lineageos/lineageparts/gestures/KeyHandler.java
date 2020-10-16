@@ -341,14 +341,10 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private void launchDozePulse() {
-        final boolean dozeEnabled = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.DOZE_ENABLED, 1) != 0;
-        if (dozeEnabled) {
             mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
             final Intent intent = new Intent(PULSE_ACTION);
             mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT);
             doHapticFeedback();
-        }
     }
 
     private void wakeDevice() {
